@@ -15,7 +15,7 @@ import java.util.Date;
 public class LibraryDatabase {
     private static final Logger logger = LogManager.getLogger(org.example.Database.LibraryDatabase.class);
 
-    private static final String URL = "jdbc:oracle:thin:@//ora4.ii.pw.edu.pl:1521/pdb1.ii.pw.edu.pl";
+    private static final String URL = "jdbc:oracle:thin:@//localhost:1521/oraclePDB";
     private static String LOGIN;
     private static String HASHEDPASSWORD;
     private static Connection CONNECTION;
